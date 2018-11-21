@@ -12,5 +12,5 @@ def assign_rooms(array)
 end
 
 def printer(array)
-  array.map {|element| print batch_badge_creator(array), print assign_rooms(array)}
+  array.map {|element| print batch_badge_creator(array) && print assign_rooms(array)}
 end
