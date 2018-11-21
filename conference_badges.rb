@@ -7,6 +7,6 @@ def batch_badge_creator(array)
   array.map{|element| badge_maker(element)}
 end
 
-def assign_rooms
+def assign_rooms(array)
 
 end
