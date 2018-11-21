@@ -11,6 +11,6 @@ def assign_rooms(array)
   array.map.with_index {|element, index| "Hello, #{element}! You'll be assigned to room #{index+1}!"}
 end
 
-def printer()
-
+def printer(array)
+  array.map {|element| print batch_badge_creator(array), print assign_rooms(array)}
 end
